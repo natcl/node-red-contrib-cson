@@ -1,0 +1,17 @@
+{
+  "name": "cson-example",
+  "version": "0.0.1",
+  "description": "Node-RED cson example project",
+  "dependencies": {
+    "node-red": "~0.15.0",
+    "node-red-contrib-cson": "../"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/natcl/node-red-contrib-cson.git"
+  },
+  "keywords": ["node-red", "cson"],
+  "scripts": {
+    "start": "npm install -f ; node node_modules/node-red/red.js -v -u ."
+  }
+}
